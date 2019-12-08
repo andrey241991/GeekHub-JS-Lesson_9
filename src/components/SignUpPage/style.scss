@@ -1,0 +1,126 @@
+.sign-up-page {
+  background: #bbb;
+  padding-top: 100px;
+}
+
+.sign-up-page-container {
+  max-width: 1440px;
+}
+
+.fields-container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.fields-container__column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+
+.fields-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+select {
+  padding: 5px;
+}
+
+.fields-container__avatar {
+  padding-bottom: 10px;
+}
+
+.fields-container__sex {
+  padding-bottom: 10px;
+}
+
+.fields-container__countries {
+  padding-bottom: 10px;
+}
+
+// button {
+//   padding: 6px 75px;
+//   background: #002bff;
+//   color: white;
+//   font-weight: 600;
+//   font-size: 16px;
+//   border-radius: 5px;
+//   border: 1px solid white;
+// }
+
+// // button:hover {
+// //   cursor: pointer;
+// //   background: white;
+// //   color: black;
+// //   border: 1px solid #002bff;
+// // }
+
+.checkbox-container {
+  padding-bottom: 10px;
+}
+
+// .disable {
+//   padding: 6px 75px;
+//   background: #002bff;
+//   color: white;
+//   font-weight: 600;
+//   font-size: 16px;
+//   border-radius: 5px;
+//   border: 1px solid white;
+// }
+
+// .disable :hover {
+//   padding: 6px 75px;
+//   background: #002bff;
+//   color: white;
+//   font-weight: 600;
+//   font-size: 16px;
+//   border-radius: 5px;
+//   border: 1px solid white;
+// }
+
+
+.submit__btn--disable {
+  cursor: none;
+  padding: 6px 75px;
+  background: #002bff;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 5px;
+  pointer-events: none;
+  border: 1px solid white;
+}
+
+.submit__btn--disable :hover {
+  pointer-events: none;
+  cursor: none;
+  padding: 6px 75px;
+  background: #002bff;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.submit__btn {
+  padding: 6px 75px;
+  background: #002bff;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+button:hover {
+  cursor: pointer;
+  background: white;
+  color: black;
+  border: 1px solid #002bff;
+}

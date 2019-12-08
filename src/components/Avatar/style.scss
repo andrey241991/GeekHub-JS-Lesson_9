@@ -1,0 +1,33 @@
+.avatar{
+  display: flex;
+  flex-direction: column;
+
+  img{
+    width: 100px;
+    padding-bottom: 10px;
+  }
+  span{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: red;
+  }
+}
+
+.error__field {
+  display: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: red;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
